@@ -3,7 +3,7 @@
 ## System Architecture
 The system architecture:
 
-![System Architecture](System-Architecture.drawio.svg)
+![System Architecture](System-Architecture.drawio.png)
 
 The data flow of the system as follow:
 1. CSV files from source directory loaded into tmp layer table (Done)
