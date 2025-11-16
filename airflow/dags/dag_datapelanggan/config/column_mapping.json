@@ -1,0 +1,52 @@
+{
+    "dummy_realisasi_bus" : {
+        "tanggal_realisasi":"tanggal_realisasi",
+        "bus_body_no":"bus_body_no",
+        "rute_realisasi":"rute_realisasi"
+    },
+    "dummy_routes": {
+        "route_code": "route_code",
+        "route_name": "route_name"
+    },
+    "dummy_shelter_corridor" : {
+        "shelter_name_var": "shelter_name_var",
+        "corridor_code": "corridor_code",
+        "corridor_name": "corridor_name"
+    },
+    "dummy_transaksi_bus": {
+        "uuid": "uuid",
+        "waktu_transaksi": "waktu_transaksi",
+        "armada_id_var": "armada_id_var",
+        "no_body_var": "no_body_var",
+        "card_number_var": "card_number_var",
+        "card_type_var": "card_type_var",
+        "balance_before_int": "balance_before_int",
+        "fare_int": "fare_int",
+        "balance_after_int": "balance_after_int",
+        "transcode_txt": "transcode_txt",
+        "gate_in_boo": "gate_in_boo",
+        "p_latitude_flo": "p_latitude_flo",
+        "p_longitude_flo": "p_longitude_flo",
+        "status_var": "status_var",
+        "free_service_boo": "free_service_boo",
+        "insert_on_dtm": "insert_on_dtm"
+    },
+    "dummy_transaksi_halte" : {
+        "uuid": "uuid",
+        "waktu_transaksi": "waktu_transaksi",
+        "shelter_name_var": "shelter_name_var",
+        "terminal_name_var": "terminal_name_var",
+        "card_number_var": "card_number_var",
+        "card_type_var": "card_type_var",
+        "balance_before_int": "balance_before_int",
+        "fare_int": "fare_int",
+        "balance_after_int": "balance_after_int",
+        "transcode_txt": "transcode_txt",
+        "gate_in_boo": "gate_in_boo",
+        "p_latitude_flo": "p_latitude_flo",
+        "p_longitude_flo": "p_longitude_flo",
+        "status_var": "status_var",
+        "free_service_boo": "free_service_boo",
+        "insert_on_dtm": "insert_on_dtm"
+    }
+}

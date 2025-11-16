@@ -1,0 +1,42 @@
+{
+    "env": {
+        "postgres_db":"tj_db",
+        "postgres_conn":"postgres-db",
+        "tmp_dataset":"tmp",
+        "stg_dataset":"stg",
+        "dw_dataset":"dw",
+        "data_list":[
+            "dummy_realisasi_bus",
+            "dummy_routes",
+            "dummy_shelter_corridor",
+            "dummy_transaksi_bus",
+            "dummy_transaksi_halte"
+        ],
+        "pg_conn":{
+            "host": "postgres-data",
+            "database": "tj_db",
+            "user": "mfaisalaa",
+            "password": "password123",
+            "port" : 5432
+        }
+    },
+    "dag": {
+        "job_name": "dag_datapelanggan",
+        "owner": "tj",
+        "email": [
+            "mfaisalabaz@gmail.com"
+        ],
+        "tags": [
+            "tj-dag",
+            "transaction"
+        ],
+        "schedule": null,
+        "start_date_year": 2021,
+        "start_date_month": 7,
+        "start_date_day": 14,
+        "retries": 2,
+        "retry_delay": 50,
+        "concurrency": 10,
+        "max_active_runs": 1
+    }
+}
