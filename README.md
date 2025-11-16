@@ -1,8 +1,9 @@
-# tj_assignment
+# TJ Assignment
 
 ## System Architecture
 The system architecture:
-![Alt text here](System-Architecture.drawio.svg)
+
+![System Architecture](System-Architecture.drawio.svg)
 
 The data flow of the system as follow:
 1. CSV files from source directory loaded into tmp layer table (Done)
